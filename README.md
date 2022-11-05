@@ -1,2 +1,2 @@
-# heroes-spa
-First React Single Page Application
+# Heroes Single Page Application
+First React SPA
