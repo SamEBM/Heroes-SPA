@@ -28,16 +28,16 @@ export const SearchPage = () => {
             <hr />
 
             <div className="row">
-                <div className='col-5'>
+                <div className='col-12 col-md-5'>
                     <h4>Who is your hero?</h4>
                     <hr />
                     <form onSubmit={onSearchSubmit}>
-                        <input value={searchHero} onChange={onInputChange} className='form-control' name="searchHero" type="text" autoComplete="off" placeholder='Search a hero' />
+                        <input value={searchHero} onChange={onInputChange} className='form-control' name="searchHero" type="text" autoComplete="off" placeholder='Enter the name of your hero' />
                         <button className='btn btn-outline-primary mt-2'>Search</button>
                     </form>
                 </div>
 
-                <div className="col-7">
+                <div className="col-12 col-md-7 mt-5 mt-sm-5 mt-md-0">
                     <h4>Results</h4>
 
                     {

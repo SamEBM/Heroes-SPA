@@ -27,7 +27,7 @@ export const HeroPage = () => {
             <div className="col-8">
                 <h3>{hero.superhero}</h3>
                 <ul className='list-group list-group-flush'>
-                    <li className='list-group-item'><b>Alter ego: </b>{hero.alter_ego}</li>
+                    <li className='list-group-item'><b>Real name: </b>{hero.alter_ego}</li>
                     <li className='list-group-item'><b>Publisher: </b>{hero.publisher}</li>
                     <li className='list-group-item'><b>First appearance: </b>{hero.first_appearance}</li>
                 </ul>
