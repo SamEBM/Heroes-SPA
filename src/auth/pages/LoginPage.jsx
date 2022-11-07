@@ -20,7 +20,7 @@ export const LoginPage = () => {
                     <h1 className='text-center mb-4'>Heroes Single Page Application</h1>
                     <p className='lead'>This small app was built with React to reinforce my learning. You will be able to get information about some Marvel and DC heroes using a simple but fancy UI.</p>
                     <figure className='mt-4 text-end'>
-                        <figcaption class="blockquote-footer">
+                        <figcaption className="blockquote-footer">
                             Go ahead and find your favorite hero!
                         </figcaption>
                     </figure>

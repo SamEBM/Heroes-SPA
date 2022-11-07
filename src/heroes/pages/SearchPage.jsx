@@ -31,7 +31,7 @@ export const SearchPage = () => {
                 <div className='col-12 col-md-5'>
                     <h4>Who is your hero?</h4>
                     <hr />
-                    <form onSubmit={onSearchSubmit}>
+                    <form aria-label='form' onSubmit={onSearchSubmit}>
                         <input value={searchHero} onChange={onInputChange} className='form-control' name="searchHero" type="text" autoComplete="off" placeholder='Enter the name of your hero' />
                         <button className='btn btn-outline-primary mt-2'>Search</button>
                     </form>
@@ -42,12 +42,12 @@ export const SearchPage = () => {
 
                     {
                         !q && 
-                        <div className='alert alert-primary animate__animated animate__fadeIn'>Search a hero</div>
+                        <div aria-label='no-input' className='alert alert-primary animate__animated animate__fadeIn'>Search a hero</div>
                     }
 
                     {
                         !heroes.length && q && 
-                        <div className='alert alert-danger animate__animated animate__fadeIn'> Unable to find a hero with <b>{q}</b></div>
+                        <div aria-label='no-hero' className='alert alert-danger animate__animated animate__fadeIn'> Unable to find a hero with <b>{q}</b></div>
                     }
 
                     {
